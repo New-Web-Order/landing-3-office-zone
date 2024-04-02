@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+body {
+/* overflow-x: hidden !important; */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.header-bg{
+background: rgba(0, 0, 0, 0.32);
+
+}

@@ -1,0 +1,170 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "About", "href": "#/" },
+          { "name": "Spaces", "href": "#/" },
+          { "name": "Location", "href": "#/" }
+        ],
+        "buttonText": "Contact Us",
+        "logoText": "Office Zone"
+      },
+      "welcomeBanner": {
+        "buttonText": "Search Now",
+        "mainHeading": "Find Your Next Coworking Office",
+        "mainText": "Find & Make interior stand out from the box.",
+        "chevron-one": "Locations",
+        "chevron-two": "Size",
+        "chevron-three": "City"
+
+
+      },
+      "hilights": {
+        "mainHeading": "How it works",
+        "mainText": "Ultricesuspendisse eu consectetur pharetra fringilla tincidunt est.suspendisse eu.",
+        "buttonText":"Browse All",
+        "cardInfo": [
+          {
+            "image":"/assets/images/hilight-card-one.webp",
+            "title": "Highlight value",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+          },
+          {
+            "image":"/assets/images/hilight-card-two.webp",
+            "title": "Highlight value",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            
+          },
+          {
+            "image":"/assets/images/hilight-card-three.webp",
+            "title": "Highlight value",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+          }
+        ]
+
+
+      },
+      "instruction": {
+        "mainHeading": "Are you a certifide teacher then become a instructor",
+        "mainText": "Lorem ipsum dolor sit amet consectetur. Volutpat cursus nullam purus hac. Justo nibh consequat non arcu sed. Neque tempus et tortor id. Massa dictumst quis dignissim volut",
+        "buttonText":"Browse All",
+        "cardInfo": [
+          {
+            "title": "For Small Teams",
+            "description": "2-8 people"
+          },
+          {
+            "title": "For Medium Teams",
+            "description": "2-8 people"
+            
+          },
+          {
+            "title": "For Longe Teams",
+            "description": "2-8 people"
+
+          }
+        ]
+
+
+      },
+      "teamSection": {
+        "mainHeading": "Meet Our Team",
+        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "cardInfo": [
+          {
+            "image":"/assets/images/grid-card-one.webp",
+            "title": "Full name",
+            "subtitle": "Job title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+
+          },
+          {
+            "image":"/assets/images/grid-card-two.webp",
+            "title": "Full name",
+            "subtitle": "Job title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+          },
+          {
+            "image":"/assets/images/grid-card-three.webp",
+            "title": "Full name",
+            "subtitle": "Job title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+          },
+          {
+            "image":"/assets/images/grid-card-four.webp",
+            "title": "Full name",
+            "subtitle": "Job title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+          },
+          {
+            "image":"/assets/images/grid-card-five.webp",
+            "title": "Full name",
+            "subtitle": "Job title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+          },
+          {
+            "image":"/assets/images/grid-card-six.webp",
+            "title": "Full name",
+            "subtitle": "Job title",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+
+
+          }
+        ],
+
+        "SocialMediaLinks": [
+          {"name": "linkedin", "href": "https://www.newweborder.co/"},
+          {"name": "twitter", "href": "https://twitter.com/viayze"},
+          {"name": "dribble", "href": "https://www.instagram.com/viayze"}
+        ]
+
+
+      },
+      "cta": {
+        "mainHeading": "Come and visit our",
+        "buttonText":"Contact Us"
+      },
+      "footer": {
+        "mainText":"Susbribe to Our Newsletter",
+        "hugeText":"Office Zone",
+        "privacyPolicy":"By subscribing you agree to with our Privacy Policy",
+        "placeholder":"Enter your email",
+        "location":"Locations",
+        "workspace":"Spaces",
+        "about":"About",
+        "buttonText":"Subscribe",
+
+
+
+          "aboutLinks": [
+            {"name": "Our Story", "href": "#"},
+            {"name": "Our Team", "href": "#"},
+            {"name": "News", "href": "#"},
+            {"name": "Blog", "href": "#"}
+          ],
+          "workspaceLinks": [
+            {"name": "Small Team", "href": "#"},
+            {"name": "Medium Team", "href": "#"},
+            {"name": "Large Team", "href": "#"},
+            {"name": "Corporate", "href": "#"}
+          ],
+          "cityinks": [
+            {"name": "New York", "href": "#"},
+            {"name": "Chicago", "href": "#"},
+            {"name": "Los-Angeles", "href": "#"},
+            {"name": "San-Francisco", "href": "#"}
+          ]
+
+
+
+        
+      }
+
+
+}
