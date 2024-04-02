@@ -30,8 +30,7 @@ export const metadata = {
 const RootLayout = async ({ children }: PropsWithChildren) => {
   return (
  <html lang="en" className={`${k2d.variable}`}>
-
-      <body className="bg-[#F9F9F9]">
+      <body className="bg-neutral-50 ]">
         <Hedaer/>
         <main>
         {children}

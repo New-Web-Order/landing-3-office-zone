@@ -10,12 +10,12 @@ import Cta from "@/components/sections/cta";
 
 const Homepage = () => {
   return (
-    <main className="flex flex-col w-screen items-center p-0 m-0">
-       <WelcomeBanner/>
-      <Hilights/>
-      <Instructions/>
-      <CardGrid/>
-      <Cta/> 
+    <main className="flex flex-col w-screen items-center">
+      <WelcomeBanner />
+      <Hilights />
+      <Instructions />
+      <CardGrid />
+      <Cta />
     </main>
   );
 }

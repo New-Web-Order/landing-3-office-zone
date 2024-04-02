@@ -1,3 +1,23 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "curly": ["warn", "multi"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "jsx-quotes": ["error", "prefer-single"],
+    "no-console": "warn",
+    "comma-dangle": ["error", "never"],
+    "no-unused-expressions": "error",
+    "no-constant-binary-expression": "error",
+    "warnOnUnassignedImports": true,
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": { "attributes": false }
+      }
+    ]
+  }
 }
