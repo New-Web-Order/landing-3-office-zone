@@ -1,9 +1,9 @@
 {
     "navbar": {
         "links": [
+          { "name": "Features", "href": "#features"  },
           { "name": "About", "href": "#about"  },
-          { "name": "Team", "href": "#team"  },
-          { "name": "Features", "href": "#features"  }
+          { "name": "Team", "href": "#team"  }
         ],
         "buttonText": "Contact Us",
         "logoText": "Office Zone"

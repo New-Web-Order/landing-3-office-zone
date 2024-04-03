@@ -55,13 +55,13 @@ const Header = () => {
                   <p className='font-semibold text-xl text-bg-1200 '>{Data.navbar.logoText}</p>
 
                 </div>
-                <div className=' hidden flex-auto lg:ml-0 lg:block'>
-                  <div className='flex items-center justify-center gap-1.5'>
+                <div className=' hidden lg:ml-0 lg:block '>
+                  <div className='flex items-center justify-center gap-12'>
                     {Data.navbar.links.map((item) => (
                       <a key={item.name} href={item.href}>
                         <p
                           className={classNames(
-                            'px-4 text-base font-medium text-bg-1200',
+                            'text-base font-medium text-bg-1200 hover:text-gray-200',
                           )}
                           aria-current={item.name ? 'page' : undefined}
                         >

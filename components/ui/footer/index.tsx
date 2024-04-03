@@ -50,7 +50,7 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
-              className=' text-sm font-medium lg:text-lg text-bg-100'
+              className=' text-sm font-medium lg:text-lg text-bg-100 hover:text-gray-600'
             >
               {item.name}
             </a>
@@ -65,7 +65,7 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
-              className=' text-sm font-medium lg:text-lg text-bg-100'
+              className=' text-sm font-medium lg:text-lg text-bg-100 hover:text-gray-600'
             >
               {item.name}
             </a>
@@ -79,7 +79,7 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
-              className=' text-sm font-medium lg:text-lg text-bg-100'
+              className=' text-sm font-medium lg:text-lg text-bg-100 hover:text-gray-600'
             >
               {item.name}
             </a>

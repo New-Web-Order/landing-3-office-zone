@@ -48,7 +48,7 @@ const TeamCard: React.FC<TeamCardProps> = ({
     target='_blank'
     rel='noopener noreferrer'
     aria-label={`Office Zone on ${link.name}`}
-    className='text-2xl'
+    className='text-2xl hover:text-gray-500'
   >
     {link.name === 'dribble' && <FaDribbble  aria-hidden='true'/>}
     {link.name === 'twitter' && <FaXTwitter  aria-hidden='true'/>}

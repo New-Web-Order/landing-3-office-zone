@@ -22,24 +22,24 @@ const WelcomeBanner = () => {
         </div>
         <div className='w-full rounded-xl md:rounded-full bg-1200 px-3 py-3 md:pr-8 md:pl-10 md:py-4 2xl:py-6 2xl:px-16 flex justify-between items-center bg-bg-1200 shadow-2xl'>
           <div className='w-fit flex items-center justify-center'>
-            <div className='w-fit pr-3 lg:pr-11 flex items-center justify-center gap-1.5 lg:gap-3.5 cursor-pointer border-r-2 border-bg-800'>
-              <p className='text-xs md:font-medium font-normal md:text-[15px] lg:text-lg 2xl:text-xl lg:font-semibold text-bg-100'>{Data.welcomeBanner['chevron-one']}</p>
+            <div className='w-fit pr-3 lg:pr-11 flex items-center justify-center gap-1.5 lg:gap-3.5 cursor-pointer border-r-2 border-bg-800 text-bg-100 hover:text-gray-600'>
+              <p className='text-xs md:font-medium font-normal md:text-[15px] lg:text-lg 2xl:text-xl lg:font-semibold  '>{Data.welcomeBanner['chevron-one']}</p>
               <NextImage 
               src={Arrow}
               alt='chevron'
               className='lg:h-2 lg:w-3 h-1 w-1.5 '
               />
             </div>
-            <div className='w-fit px-3 lg:px-11 flex items-center justify-center gap-1.5 lg:gap-3.5 cursor-pointer border-r-2 border-bg-800'>
-              <p className='text-xs md:font-medium font-normal md:text-[15px] lg:text-lg 2xl:text-xl lg:font-semibold text-bg-100'>{Data.welcomeBanner['chevron-two']}</p>
+            <div className='w-fit px-3 lg:px-11 flex items-center justify-center gap-1.5 lg:gap-3.5 cursor-pointer border-r-2 border-bg-800 text-bg-100 hover:text-gray-600'>
+              <p className='text-xs md:font-medium font-normal md:text-[15px] lg:text-lg 2xl:text-xl lg:font-semibold  '>{Data.welcomeBanner['chevron-two']}</p>
               <NextImage 
               src={Arrow}
               alt='chevron'
               className='lg:h-2 lg:w-3 h-1 w-1.5 '
               />
             </div>
-            <div className='w-fit px-3 lg:px-11 flex items-center justify-center gap-1.5 lg:gap-3.5 cursor-pointer'>
-              <p className='text-xs md:font-medium font-normal md:text-[15px] lg:text-lg 2xl:text-xl lg:font-semibold text-bg-100'>{Data.welcomeBanner['chevron-three']}</p>
+            <div className='w-fit px-3 lg:px-11 flex items-center justify-center gap-1.5 lg:gap-3.5 cursor-pointer text-bg-100 hover:text-gray-600'>
+              <p className='text-xs md:font-medium font-normal md:text-[15px] lg:text-lg 2xl:text-xl lg:font-semibold  '>{Data.welcomeBanner['chevron-three']}</p>
               <NextImage 
               src={Arrow}
               alt='chevron'
