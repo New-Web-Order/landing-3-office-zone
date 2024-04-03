@@ -1,16 +1,13 @@
-import React from "react";
+import React from 'react';
 import WelcomeBanner from '@/components/sections/welcome-banner';
-import Hilights from "@/components/sections/hilights";
-import Instructions from "@/components/sections/instructor";
-import CardGrid from "@/components/sections/cards-grid";
-import Cta from "@/components/sections/cta";
-// import Testimonials from '@/components/sections/testimonials';
-// import FAQS from '@/components/sections/faqs';
-// import CTA from '@/components/sections/cta';
+import Hilights from '@/components/sections/features';
+import Instructions from '@/components/sections/about';
+import CardGrid from '@/components/sections/team';
+import Cta from '@/components/sections/cta';
 
 const Homepage = () => {
   return (
-    <main className="flex flex-col w-screen items-center">
+    <main className='flex flex-col w-screen items-center'>
       <WelcomeBanner />
       <Hilights />
       <Instructions />
@@ -18,5 +15,5 @@ const Homepage = () => {
       <Cta />
     </main>
   );
-}
+};
 export default Homepage;

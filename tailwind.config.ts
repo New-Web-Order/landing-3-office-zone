@@ -21,9 +21,13 @@ const config: Config = {
         "primary-300":"#7D66D9",
         "primary-100":"#EDE0D9",
       },
+      saturate:{
+        25:".25"
+      },
+
       fontFamily: {
         sans: ['var(--font-k2d)'],
-      },
+      }
 
     },
   },

@@ -1,17 +1,17 @@
 {
     "navbar": {
         "links": [
-          { "name": "About", "href": "#/" },
-          { "name": "Spaces", "href": "#/" },
-          { "name": "Location", "href": "#/" }
+          { "name": "About", "href": "#about"  },
+          { "name": "Team", "href": "#team"  },
+          { "name": "Features", "href": "#features"  }
         ],
         "buttonText": "Contact Us",
         "logoText": "Office Zone"
       },
       "welcomeBanner": {
         "buttonText": "Search Now",
-        "mainHeading": "Find Your Next Coworking Office",
-        "mainText": "Find & Make interior stand out from the box.",
+        "mainHeading": "Discover Your Ideal Coworking Space",
+        "mainText": " Uncover the ideal workspace tailored to your needs.",
         "chevron-one": "Locations",
         "chevron-two": "Size",
         "chevron-three": "City"
@@ -19,25 +19,25 @@
 
       },
       "hilights": {
-        "mainHeading": "How it works",
-        "mainText": "Ultricesuspendisse eu consectetur pharetra fringilla tincidunt est.suspendisse eu.",
+        "mainHeading": "Flexible Work Environment",
+        "mainText": " Our coworking office offers a flexible work environment where you can choose your preferred workspace.",
         "buttonText":"Browse All",
         "cardInfo": [
           {
             "image":"/assets/images/hilight-card-one.webp",
-            "title": "Highlight value",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Amenities",
+            "description": "Elevate your work experience with our state-of-the-art amenities. From high-speed internet and modern furnishings to fully equipped conference rooms and complimentary refreshments, we provide everything you need to stay productive and comfortable throughout the day."
           },
           {
             "image":"/assets/images/hilight-card-two.webp",
-            "title": "Highlight value",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Community",
+            "description": " Join a vibrant community of like-minded professionals and entrepreneurs. Our coworking space fosters networking opportunities, collaboration, and knowledge-sharing, creating an inspiring atmosphere where innovation thrives. attend events and grow your network"
             
           },
           {
             "image":"/assets/images/hilight-card-three.webp",
-            "title": "Highlight value",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Privacy Options",
+            "description": "Enjoy enhanced privacy options tailored to your needs in our coworking space. Whether you require a quiet area for focused work, a soundproof phone booth for confidential calls, or a designated meeting room for client discussions, and we offer customizable solutions"
 
           }
         ]
@@ -45,8 +45,8 @@
 
       },
       "instruction": {
-        "mainHeading": "Are you a certifide teacher then become a instructor",
-        "mainText": "Lorem ipsum dolor sit amet consectetur. Volutpat cursus nullam purus hac. Justo nibh consequat non arcu sed. Neque tempus et tortor id. Massa dictumst quis dignissim volut",
+        "mainHeading": "Established businesses, trust us to elevate there work experience. ",
+        "mainText": " We believe in the power of synergy. Our dynamic environment encourages creativity, networking, and professional development. With convenient access to resources and support, you'll thrive in a community that values collaboration and innovation.",
         "buttonText":"Browse All",
         "cardInfo": [
           {
@@ -69,59 +69,59 @@
       },
       "teamSection": {
         "mainHeading": "Meet Our Team",
-        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "mainText": "Our dedicated team here is nothing short of exceptional",
 
         "cardInfo": [
           {
             "image":"/assets/images/grid-card-one.webp",
-            "title": "Full name",
-            "subtitle": "Job title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Joe Goldberg",
+            "subtitle": "Community Manager",
+            "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
 
           },
           {
             "image":"/assets/images/grid-card-two.webp",
-            "title": "Full name",
-            "subtitle": "Job title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Joe Goldberg",
+            "subtitle": "Community Manager",
+            "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-three.webp",
-            "title": "Full name",
-            "subtitle": "Job title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Joe Goldberg",
+            "subtitle": "Community Manager",
+            "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-four.webp",
-            "title": "Full name",
-            "subtitle": "Job title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Joe Goldberg",
+            "subtitle": "Community Manager",
+            "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-five.webp",
-            "title": "Full name",
-            "subtitle": "Job title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Joe Goldberg",
+            "subtitle": "Community Manager",
+            "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-six.webp",
-            "title": "Full name",
-            "subtitle": "Job title",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+            "title": "Joe Goldberg",
+            "subtitle": "Community Manager",
+            "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
 
           }
         ],
 
         "SocialMediaLinks": [
-          {"name": "linkedin", "href": "https://www.newweborder.co/"},
-          {"name": "twitter", "href": "https://twitter.com/viayze"},
-          {"name": "dribble", "href": "https://www.instagram.com/viayze"}
+          {"name": "linkedin",   "href": "https://www.newweborder.co/"},
+          {"name": "twitter",   "href": "https://twitter.com/viayze"},
+          {"name": "dribble",   "href": "https://www.instagram.com/viayze"}
         ]
 
 

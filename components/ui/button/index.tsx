@@ -9,18 +9,17 @@ interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   active?: boolean;
   loading?: boolean;
   width?: number | string;
-  shape?: 'surface' | 'filled'| 'search' | 'cta' | 'subscribe';
+  shape?: 'surface' | 'filled'| 'search' | 'cta' | 'subscribe' | 'contact';
   Component?: React.ComponentType;
 }
 
 const Button = forwardRef<HTMLButtonElement, Props>((props, buttonRef) => {
   const {
-    className,
+    // className,
     children,
     active,
     loading = false,
     disabled = false,
-    width,
     shape,
     style = {},
     Component = 'button',
@@ -34,9 +33,8 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, buttonRef) => {
     shape && styles[shape],
     {
       [styles.loading]: loading,
-      [styles.disabled]: disabled,
-    },
-    className
+      [styles.disabled]: disabled
+    }
   );
 
   return (
@@ -48,7 +46,7 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, buttonRef) => {
       disabled={disabled}
       style={{
         // width: width ? width : 'auto',
-        ...style,
+        ...style
       }}
       {...rest}
     >
@@ -58,6 +56,6 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, buttonRef) => {
   );
 });
 
-Button.displayName = "Button"
+Button.displayName = 'Button';
 
-export default Button
+export default Button;

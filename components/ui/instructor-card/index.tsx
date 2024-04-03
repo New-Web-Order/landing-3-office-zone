@@ -1,7 +1,7 @@
-"use client";
-import React from 'react'
+'use client';
+import React from 'react';
 import NextImage from 'next/image';
-import User from '@/public/assets/icons/user.svg'
+import User from '@/public/assets/icons/user.svg';
 interface InstructorCardProps {
 
     title: string;
@@ -12,7 +12,7 @@ interface InstructorCardProps {
 
 const InstructorCard: React.FC<InstructorCardProps> = ({
     title,
-    description,
+    description
 
 
   }) => {
@@ -20,7 +20,7 @@ const InstructorCard: React.FC<InstructorCardProps> = ({
       <div className='flex gap-1.5 lg:gap-3.5 items-start lg:items-center max-w-[16.875rem] rounded-lg lg:rounded-3xl bg-bg-1000 py-2 lg:py-3 w-32 lg:w-64 justify-center'>
       <NextImage 
        src={User} 
-  alt="user" 
+  alt='user' 
   width={500} 
   height={500} 
   className='lg:max-w-11 lg:max-h-11 max-w-5 max-h-5 '
