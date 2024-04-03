@@ -8,7 +8,7 @@ import Data from '@/dictionaries/en.json';
 const Cta = () => {
   return (
     <section className='w-screen h-[70vh] bg-cover bg-center flex items-center px-4 md:px-8 2xl:px-0 relative justify-center '
-      style={{ backgroundImage: `url('/assets/images/end-section-banner.jpg')`,
+      style={{ backgroundImage: `url('/assets/images/end-section-banner.webp')`,
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
       maxWidth:'100vw'
