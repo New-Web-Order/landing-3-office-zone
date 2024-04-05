@@ -22,6 +22,7 @@ const Header = () => {
         {({ open }) => (
           <>
             <div className='mx-auto w-full max-w-screen-2xl px-3.5 lg:px-6 '>
+              
               <div className='relative flex items-center justify-between'>
                 <div className='absolute inset-y-0 left-0 flex w-full items-center justify-end lg:hidden'>
                   {/* Mobile menu button*/}

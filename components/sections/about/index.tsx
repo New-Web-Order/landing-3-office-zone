@@ -11,8 +11,8 @@ const Instructions = () => {
     <section className='w-full max-w-screen-xl flex flex-col-reverse lg:flex-row items-center px-4 md:px-8 2xl:px-0 py-10 lg:py-24 gap-9 lg:gap-10 xl:gap-20' aria-label='About Us' id='about' >
 
       <div className='flex flex-1 flex-col gap-6 lg:gap-9 max-w-[33rem]'>
-        <h1 className='font-bold text-3xl md:text-4xl lg:text-6xl text-bg-100 '>{Data.instruction.mainHeading}</h1>
-        <p className='font-normal text-base md:text-lg lg:text-xl text-bg-100  '>{Data.instruction.mainText}</p>
+        <h1 className='font-bold text-3xl md:text-4xl lg:text-6xl text-fg-text-contrast '>{Data.instruction.mainHeading}</h1>
+        <p className='font-normal text-base md:text-lg lg:text-xl text-fg-text  '>{Data.instruction.mainText}</p>
         <a
           href='/'
           target='_blank'

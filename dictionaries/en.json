@@ -11,10 +11,8 @@
       "welcomeBanner": {
         "buttonText": "Search Now",
         "mainHeading": "Discover Your Ideal Coworking Space",
-        "mainText": " Uncover the ideal workspace tailored to your needs.",
-        "chevron-one": "Locations",
-        "chevron-two": "Size",
-        "chevron-three": "City"
+        "mainText": " Uncover the ideal workspace tailored to your needs."
+
 
 
       },
@@ -74,7 +72,7 @@
         "cardInfo": [
           {
             "image":"/assets/images/grid-card-one.webp",
-            "title": "Joe Goldberg",
+            "title": "Emily",
             "subtitle": "Community Manager",
             "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
@@ -82,36 +80,36 @@
           },
           {
             "image":"/assets/images/grid-card-two.webp",
-            "title": "Joe Goldberg",
-            "subtitle": "Community Manager",
+            "title": "Drake",
+            "subtitle": "Resources Manager",
             "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-three.webp",
-            "title": "Joe Goldberg",
-            "subtitle": "Community Manager",
+            "title": "Martin",
+            "subtitle": "Project Manager",
             "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-four.webp",
             "title": "Joe Goldberg",
-            "subtitle": "Community Manager",
+            "subtitle": "Operations Manager",
             "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-five.webp",
-            "title": "Joe Goldberg",
-            "subtitle": "Community Manager",
+            "title": "Camilia",
+            "subtitle": "Sales Representative",
             "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
           },
           {
             "image":"/assets/images/grid-card-six.webp",
-            "title": "Joe Goldberg",
-            "subtitle": "Community Manager",
+            "title": "Liam",
+            "subtitle": "Marketing Manager",
             "description": "Meet Joe Goldberg, our dedicated Community Manager. With a passion for fostering connections and creating a vibrant atmosphere."
 
 

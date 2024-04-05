@@ -31,12 +31,14 @@ const TeamCard: React.FC<TeamCardProps> = ({
   alt='car image' 
   width={500} 
   height={500} 
-  className='w-full h-full'
+  className='w-full h-full max-h-96 rounded-md'
+  style={{objectFit:'cover'}}
+
       />
 
         <div className='flex flex-col gap-4 w-full items-center '>
-          <h1 className='font-bold text-xl text-bg-100 text-center'>{title} <br /> <span className='text-lg font-normal text-bg-100'>{subtitle}</span></h1>
-          <p className='font-normal text-base text-bg-200 text-center '>{description}</p>
+          <h1 className='font-bold text-xl text-text-bg-100 text-center'>{title} <br /> <span className='text-lg font-normal text-bg-100'>{subtitle}</span></h1>
+          <p className='font-normal text-base text-gray-600 text-center '>{description}</p>
         </div>
 
         <div className='flex items-center gap-3.5 text-bg-200'>
@@ -48,7 +50,7 @@ const TeamCard: React.FC<TeamCardProps> = ({
     target='_blank'
     rel='noopener noreferrer'
     aria-label={`Office Zone on ${link.name}`}
-    className='text-2xl hover:text-gray-500'
+    className='text-2xl text-fg-text hover:text-gray-500'
   >
     {link.name === 'dribble' && <FaDribbble  aria-hidden='true'/>}
     {link.name === 'twitter' && <FaXTwitter  aria-hidden='true'/>}

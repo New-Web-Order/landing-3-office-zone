@@ -25,12 +25,12 @@ const HilightCard: React.FC<HilightCardProps> = ({
   alt='car image' 
   width={500} 
   height={500} 
-  className='w-full h-full'
+  className='w-full h-full rounded-md max-h-64'
       />
 
         <div className='flex flex-col gap-3 w-full items-center'>
-          <h1 className='font-bold text-2xl text-bg-100'>{title}</h1>
-          <p className='font-normal text-base text-bg-200 text-center '>{description}</p>
+          <h1 className='font-bold text-2xl text-fg-text-contrast'>{title}</h1>
+          <p className='font-normal text-base text-fg-text text-center '>{description}</p>
         </div>
       </div>
     );

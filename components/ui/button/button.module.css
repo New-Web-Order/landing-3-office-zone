@@ -15,7 +15,7 @@
   /********** FILLED **********/
   
   .root[data-shape='filled'] {
-    @apply bg-primary-1200 text-primary-100 px-4;
+    @apply bg-fg-text-contrast text-bg-bg-hover px-4;
   }
   
   .root[data-shape='contact'] {
@@ -37,12 +37,12 @@
     @apply bg-transparent  border-2 border-bg-1200 transition duration-150 ease-in-out;
   }
   .root[data-shape='subscribe'] {
-    @apply bg-primary-1200 text-primary-100 px-4 text-xs text-[15px] h-14 w-full lg:w-[8.375rem] font-semibold;
+    @apply bg-transparent text-fg-text-contrast border-2 border-fg-text-contrast px-4 text-xs text-[15px] h-14 w-full lg:w-[8.375rem] font-semibold;
   }
   .root[data-shape='subscribe']:hover {
-    @apply bg-transparent text-primary-1200 border-2 border-primary-1200 font-black transition duration-150 ease-in-out;
+    @apply bg-fg-text-contrast text-gray-400 font-black transition duration-150 ease-in-out;
   }
   .root[data-shape='filled']:hover {
-    @apply bg-transparent text-primary-1200 border-2 border-primary-1200 transition duration-150 ease-in-out;
+    @apply bg-transparent text-fg-text-contrast border-2 border-fg-text-contrast transition duration-150 ease-in-out;
 
   }

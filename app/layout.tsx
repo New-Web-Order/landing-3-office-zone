@@ -53,7 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const RootLayout = async ({ children }: PropsWithChildren) => {
   return (
  <html lang='en' className={`${k2d.variable}`}>
-      <body className='bg-neutral-50 ]'>
+      <body className=''>
         <Hedaer/>
         <main>
         {children}
