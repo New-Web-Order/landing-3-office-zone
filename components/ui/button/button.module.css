@@ -25,10 +25,10 @@
     @apply bg-transparent text-bg-1200 border-2 border-bg-1200 transition duration-150 ease-in-out  ;
   }
   .root[data-shape='search'] {
-    @apply bg-primary-1200 text-primary-100 px-4 md:px-6 h-full text-xs md:text-[15px] lg:text-lg py-2  lg:w-[12.5rem];
+    @apply bg-fg-text-contrast text-bg-base px-4 md:px-6 h-full text-[10px] sm:text-xs md:text-[15px] lg:text-lg py-2  lg:w-[12.5rem];
   }
   .root[data-shape='search']:hover {
-    @apply bg-transparent text-primary-1200 border-2 border-primary-1200 transition duration-150 ease-in-out;
+    @apply bg-transparent text-fg-text-contrast border-2 border-fg-text-contrast transition duration-150 ease-in-out;
   }
   .root[data-shape='cta'] {
     @apply bg-primary-1200 text-bg-1200 px-4 h-full text-xs lg:text-lg py-3.5 w-[6.7rem] lg:w-[12.5rem];
@@ -37,10 +37,10 @@
     @apply bg-transparent  border-2 border-bg-1200 transition duration-150 ease-in-out;
   }
   .root[data-shape='subscribe'] {
-    @apply bg-transparent text-fg-text-contrast border-2 border-fg-text-contrast px-4 text-xs text-[15px] h-14 w-full lg:w-[8.375rem] font-semibold;
+    @apply bg-fg-text-contrast text-bg-base border-2 border-fg-text-contrast px-4 text-xs text-[15px] h-14 w-full lg:w-[8.375rem] font-semibold;
   }
   .root[data-shape='subscribe']:hover {
-    @apply bg-fg-text-contrast text-gray-400 font-black transition duration-150 ease-in-out;
+    @apply bg-transparent text-fg-text-contrast font-black transition duration-150 ease-in-out;
   }
   .root[data-shape='filled']:hover {
     @apply bg-transparent text-fg-text-contrast border-2 border-fg-text-contrast transition duration-150 ease-in-out;

@@ -13,12 +13,12 @@ function classNames(...classes: string[]) {
 }
 
 
-const Header = () => {
+const Navbar = () => {
   const router = useRouter();
 
   return (
     <>
-      <Disclosure as='nav' className=' w-screen max-w-screen lg:flex lg:items-center lg:h-20  py-3 lg:py-0 header-bg z-10 absolute top-0 '>
+      <Disclosure as='nav' className=' w-screen max-w-screen lg:flex lg:items-center lg:h-20  py-3 lg:py-0 navbar-bg z-10 absolute top-0 '>
         {({ open }) => (
           <>
             <div className='mx-auto w-full max-w-screen-2xl px-3.5 lg:px-6 '>
@@ -62,7 +62,7 @@ const Header = () => {
                       <a key={item.name} href={item.href}>
                         <p
                           className={classNames(
-                            'text-base font-medium text-bg-1200 hover:text-gray-200',
+                            'text-base font-medium text-bg-1200 hover:text-gray-400',
                           )}
                           aria-current={item.name ? 'page' : undefined}
                         >
@@ -114,4 +114,4 @@ const Header = () => {
     </>
     );
 };
-export default Header;
+export default Navbar;

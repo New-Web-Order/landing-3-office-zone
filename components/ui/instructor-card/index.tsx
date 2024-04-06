@@ -17,7 +17,7 @@ const InstructorCard: React.FC<InstructorCardProps> = ({
 
   }) => {
     return (
-      <div className='flex gap-1.5 lg:gap-3.5 items-start lg:items-center max-w-[16.875rem] rounded-lg lg:rounded-3xl bg-bg-1000 py-2 lg:py-3 w-32 lg:w-64 justify-center'>
+      <div className='flex gap-1.5 lg:gap-3.5 items-start lg:items-center max-w-[16.875rem] rounded-lg lg:rounded-3xl bg-bg-bg py-2 lg:py-3 w-32 lg:w-64 justify-center'>
       <NextImage 
        src={User} 
   alt='user' 
@@ -27,8 +27,8 @@ const InstructorCard: React.FC<InstructorCardProps> = ({
       />
 
         <div className='flex flex-col gap-0 lg:gap-1 w-fit items-start '>
-          <h1 className='font-bold text-[9px] lg:text-lg text-bg-100'>{title}</h1>
-          <p className='font-normal text-[9px] lg:text-base text-bg-200 text-center '>{description}</p>
+          <h1 className='font-bold text-[9px] lg:text-lg text-fg-text-contrast'>{title}</h1>
+          <p className='font-normal text-[9px] lg:text-base text-fg-text text-center '>{description}</p>
         </div>
       </div>
     );

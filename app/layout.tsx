@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import Hedaer from '@/components/ui/header';
+import Hedaer from '@/components/ui/navbar';
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
 import { K2D } from 'next/font/google';

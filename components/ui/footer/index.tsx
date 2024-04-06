@@ -39,7 +39,7 @@ const Footer = () => {
 
         </a>
             </div>
-            <p className='font-normal text-xs lg:text-sm text-fg-text'>{Data.footer.privacyPolicy}</p>
+            <p className='font-normal text-xs lg:text-sm text-fg-text-contrast hover:text-gray-400 cursor-pointer'>{Data.footer.privacyPolicy}</p>
         </div>
 
         <div className='flex w-full lg:w-fit lg:gap-20 xl:gap-24 justify-between lg:justify-center'>

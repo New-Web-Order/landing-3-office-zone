@@ -25,7 +25,7 @@ const TeamCard: React.FC<TeamCardProps> = ({
 
   }) => {
     return (
-      <div className='w-full max-w-[24rem] sm:max-w-full flex flex-col gap-6 items-center p-3 bg-bg-1200 h-fit rounded-md shadow-md'>
+      <div className='w-full max-w-[24rem] sm:max-w-full flex flex-col gap-6 items-center p-3 bg-bg-bg h-fit rounded-md shadow-md'>
       <NextImage 
        src={image} 
   alt='car image' 
@@ -37,8 +37,8 @@ const TeamCard: React.FC<TeamCardProps> = ({
       />
 
         <div className='flex flex-col gap-4 w-full items-center '>
-          <h1 className='font-bold text-xl text-text-bg-100 text-center'>{title} <br /> <span className='text-lg font-normal text-bg-100'>{subtitle}</span></h1>
-          <p className='font-normal text-base text-gray-600 text-center '>{description}</p>
+          <h1 className='font-bold text-xl text-fg-text-contrast text-center'>{title} <br /> <span className='text-lg font-normal text-fg-text-contrast'>{subtitle}</span></h1>
+          <p className='font-normal text-base text-fg-text text-center '>{description}</p>
         </div>
 
         <div className='flex items-center gap-3.5 text-bg-200'>
