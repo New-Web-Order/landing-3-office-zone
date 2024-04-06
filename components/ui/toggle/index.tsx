@@ -16,10 +16,10 @@ const ThemeToggle = () => {
 
   return (
     <button
-      className='flex items-center justify-center w-8 h-8 rounded-md bg-fg-text focus:outline-none'
+      className='flex items-center justify-center w-8 h-8 rounded-md bg-bg-bg-hover focus:outline-none'
       onClick={toggleTheme}
     >
-      {isDarkMode ? <RiMoonLine size={20} className='text-white' /> : <RiSunLine size={20} className='text-white' />}
+      {isDarkMode ? <RiMoonLine size={20} className='text-gray-400' /> : <RiSunLine size={20} className='text-gray-500' />}
     </button>
   );
 };
