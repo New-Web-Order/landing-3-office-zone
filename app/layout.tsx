@@ -1,15 +1,18 @@
+
 import React, { PropsWithChildren } from 'react';
 import Hedaer from '@/components/ui/navbar';
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
 import { K2D } from 'next/font/google';
 import Footer from '@/components/ui/footer';
+import ThemeProvider from '@/components/ui/theme-provider';
+
 
 export const dynamic = 'force-dynamic';
 
- 
+
 const k2d = K2D({
-  weight: ['300','400','500','600','700'],
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-k2d'
@@ -52,15 +55,19 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const RootLayout = async ({ children }: PropsWithChildren) => {
   return (
- <html lang='en' className={`${k2d.variable}`}>
-      <body className=''>
-        <Hedaer/>
-        <main>
-        {children}
-        </main>
-        <Footer/>
+
+    <html lang='en' className={`${k2d.variable}`} suppressHydrationWarning>
+      <body>
+        <ThemeProvider>
+          <Hedaer />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
+
   );
 };
 export default RootLayout;

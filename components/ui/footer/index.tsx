@@ -4,7 +4,8 @@ import React from 'react';
 import Input from '@/components/ui/input';
 import Button from '@/components/ui/button';
 import Data from '@/dictionaries/en.json';
-import ThemeToggle from '@/components/ui/toggle';
+import ThemeToggle from '@/components/ui/toggle-theme';
+import NexthemeToggle from '@/components/ui/next-theme-toggle';
 
 // function classNames(...classes: string[]) {
 //   return classes.filter(Boolean).join(' ');
@@ -96,7 +97,8 @@ const Footer = () => {
                     <a href='https://www.newweborder.co/' target='_blank' className='hover:cursor-pointer hover:bg-black/90 rounded-sm hover:text-[#23FA4B] hover:transition-color ease-in-out duration-300'>◬ ɴᴇᴡ ᴡᴇʙ ᴏʀᴅᴇʀ_</a>
                 </p>
             </div>
-            <ThemeToggle/>
+            {/* <ThemeToggle/> */}
+            <NexthemeToggle/>
         </div>
       </div>
       </div>
