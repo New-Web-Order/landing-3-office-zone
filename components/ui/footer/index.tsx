@@ -4,7 +4,6 @@ import React from 'react';
 import Input from '@/components/ui/input';
 import Button from '@/components/ui/button';
 import Data from '@/dictionaries/en.json';
-import ThemeToggle from '@/components/ui/toggle-theme';
 import NexthemeToggle from '@/components/ui/next-theme-toggle';
 
 // function classNames(...classes: string[]) {
