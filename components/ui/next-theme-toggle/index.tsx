@@ -5,12 +5,12 @@ import {
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
+  SelectValue
 } from '@/components/ui/select';
 
 // import { PiDesktopDuotone, PiMoonDuotone, PiSunDuotone } from 'react-icons/pi';
-import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
-import { RiComputerLine } from "react-icons/ri";
+import { MdOutlineDarkMode, MdOutlineLightMode } from 'react-icons/md';
+import { RiComputerLine } from 'react-icons/ri';
 import { useTheme } from 'next-themes';
 
 const themeIcons = {
@@ -22,8 +22,8 @@ const themeIcons = {
 
 export const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false)
-  useEffect(() => { setMounted(true); console.log("Mounted with theme: ", theme) }, [])
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); console.log('Mounted with theme: ', theme); }, []);
 
 
   return (

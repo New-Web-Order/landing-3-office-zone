@@ -126,7 +126,7 @@ const SelectItem = React.forwardRef<
     <span className=''>
     <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>
 
-    <SelectPrimitive.ItemIndicator className="absolute top-1/2  transform -translate-y-1/2 right-3"> {/* Adjusted position */}
+    <SelectPrimitive.ItemIndicator className='absolute top-1/2  transform -translate-y-1/2 right-3'> {/* Adjusted position */}
       <Check className='h-4 w-4' />
     </SelectPrimitive.ItemIndicator>
     </span>
