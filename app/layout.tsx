@@ -57,7 +57,7 @@ const RootLayout = async ({ children }: PropsWithChildren) => {
   return (
 
     <html lang='en' className={`${k2d.variable}`} suppressHydrationWarning>
-      <body>
+      <body >
         <ThemeProvider>
           <Hedaer />
           <main>
